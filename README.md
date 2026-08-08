@@ -19,7 +19,7 @@ I focus on closing the loop between threat intelligence, hunting, and detection 
 | --- | --- |
 | [AI TRiSM Implementation Guide](case-studies/ai-trism-implementation-guide.md) | Maps Gartner's AI TRiSM framework to specific Microsoft Defender XDR and Purview capabilities for Azure AI Foundry agents, with a phased implementation plan and MAESTRO-layer-to-tooling crosswalk |
 | [Combined STRIDE + MAESTRO Threat Model Template](case-studies/stride-maestro-threat-model-template.md) | Reusable threat-modeling template for agentic AI systems — MAESTRO's seven layers decompose the attack surface, STRIDE applies systematically within each, pre-populated threats mapped to MITRE ATT&CK/ATLAS |
-| [pan_rule_validator](https://github.com/wendyrojas7-cyber/pan_rule_validator) | Python automation tool for Panorama firewall rulebase validation — deterministic rule-analysis engine paired with an AI-generated narrative layer, 33 passing tests |
+| [pan_rule_validator](https://github.com/wendyrojas7-cyber/pan_rule_validator) | Python tool for deterministic Panorama firewall rulebase validation (shadowing, redundancy, permissiveness checks), 23 passing tests — AI narrative layer planned for Phase 2 |
 
 ## Core Skills
 

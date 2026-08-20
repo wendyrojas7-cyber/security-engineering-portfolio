@@ -6,20 +6,30 @@ I focus on closing the loop between threat intelligence, hunting, and detection 
 
 ## Case Studies
 
-| Case Study | Focus | ATT&CK |
+Investigation write-ups from real detection and IR work.
+
+| Title | Focus | ATT&CK Mapping |
 |---|---|---|
-| [Detecting a Nested QR-Code Phishing Campaign](case-studies/quishing-detection-nested-eml-pdf.md) | Custom Defender XDR detection for a nested `.eml`/PDF quishing evasion technique that bypassed native QR scanning | T1566.001 |
-| [Business Email Compromise: Inbox Rule Discovery to Reusable Root-Cause Tooling](case-studies/bec-inbox-rule-root-cause.md) | Five-vector BEC root-cause investigation, plus a reusable investigation notebook and Sentinel workbook built from it | T1114.003, T1098, T1556 |
+| [Quishing Detection: Nested QR-Code Phishing](case-studies/quishing-detection-nested-eml-pdf.md) | Detection engineering | T1566 |
+| [BEC Investigation: Malicious Inbox Rules](case-studies/bec-inbox-rule-root-cause.md) | Incident response | T1114.003 |
 
-*More case studies in progress — PAN-OS GlobalProtect exploit detection, Copilot Studio governance.*
+## Frameworks
 
-## AI Security Governance & Tooling
+Reference guides and governance templates for security architecture and risk decisions.
 
-| Project | Focus |
-| --- | --- |
-| [AI TRiSM Implementation Guide](case-studies/ai-trism-implementation-guide.md) | Maps Gartner's AI TRiSM framework to specific Microsoft Defender XDR and Purview capabilities for Azure AI Foundry agents, with a phased implementation plan and MAESTRO-layer-to-tooling crosswalk |
-| [Combined STRIDE + MAESTRO Threat Model Template](case-studies/stride-maestro-threat-model-template.md) | Reusable threat-modeling template for agentic AI systems — MAESTRO's seven layers decompose the attack surface, STRIDE applies systematically within each, pre-populated threats mapped to MITRE ATT&CK/ATLAS |
-| [pan_rule_validator](https://github.com/wendyrojas7-cyber/pan_rule_validator) | Python tool for deterministic Panorama firewall rulebase validation (shadowing, redundancy, permissiveness checks), 23 passing tests — AI narrative layer planned for Phase 2 |
+| Title | Focus |
+|---|---|
+| [AI TRiSM Implementation Guide](frameworks/ai-trism-implementation-guide.md) | Mapping Gartner AI TRiSM to Microsoft Defender/Purview |
+| [STRIDE+MAESTRO Threat Model Template](frameworks/stride-maestro-threat-model-template.md) | Threat modeling for agentic AI systems on Azure AI Foundry |
+| [Workload Identity Risk Tiering & Control Mapping](frameworks/workload-identity-risk-tiering-and-controls.md) | Critical/High app classification, Workload ID CA vs. MDCA scoping |
+
+## Tools & Projects
+
+Standalone, cloneable projects — linked here, maintained in their own repos.
+
+| Project | Description |
+|---|---|
+| [pan_rule_validator](https://github.com/wendyrojas7-cyber/pan_rule_validator) | PAN-OS Panorama rule validation: XML API collection → deterministic analysis → (Phase 2) AI narrative layer |
 
 ## Core Skills
 

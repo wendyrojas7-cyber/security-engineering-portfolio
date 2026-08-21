@@ -12,6 +12,7 @@ Investigation write-ups from real detection and IR work.
 |---|---|---|
 | [Quishing Detection: Nested QR-Code Phishing](case-studies/quishing-detection-nested-eml-pdf.md) | Detection engineering | T1566 |
 | [BEC Investigation: Malicious Inbox Rules](case-studies/bec-inbox-rule-root-cause.md) | Incident response | T1114.003 |
+| [Intra-Org Spoofed Phishing Email Bypassing DMARC Enforcement](case-studies/intraorg-spoof-dmarc-bypass.md) | Own-domain spoofed phishing message delivered despite DMARC fail — root cause traced to an anti-phish policy scoping gap excluding unlicensed shared mailboxes | T1566.002, T1656, T1036.005 |
 
 ## Frameworks
 

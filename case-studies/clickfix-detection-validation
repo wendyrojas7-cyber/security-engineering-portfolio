@@ -13,6 +13,8 @@
 
 Microsoft Defender generated an alert reporting that an active ClickFix malware command line had been "prevented from executing," with an automated remediation action logged as `Remove / Success`. Rather than closing the alert on that label alone, I independently verified using Advanced Hunting across network, process, file, and registry telemetry, plus external threat intelligence enrichment, that the block occurred before any network connection to the payload host, not after a download had already completed. This distinction matters. A block on the final execution step of a two-stage command does not by itself prove the first stage, the network fetch, never ran.
 
+![ClickFix Attack Chain](./clickfix-attack-chain.svg)
+
 ## What ClickFix Is
 
 ClickFix is a social engineering delivery technique that has become one of the more common initial access vectors over the past two years. It works by tricking the user into carrying out the actual "infection" step themselves, so there's no exploit to detect, no malicious attachment to scan, and no macro to block.

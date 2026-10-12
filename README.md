@@ -15,7 +15,7 @@ Investigation write-ups from real detection and IR work.
 | [Intra-Org Spoofed Phishing Email Bypassing DMARC Enforcement](case-studies/intraorg-spoof-dmarc-bypass.md) | Own-domain spoofed phishing message delivered despite DMARC fail — root cause traced to an anti-phish policy scoping gap excluding unlicensed shared mailboxes | T1566.002, T1656, T1036.005 |
 | [Malware Investigation: ClickFix Alert](case-studies/clickfix-detection-validation.md). | Incident Response | T1204.004, T1059.001, T1027, T1564.003, T1105 |
 | [Malware Investigation: Malvertising ScreenConnect Installer](case-studies/malvertising-screenconnect-installer-investigation.md) | Incident Response | T1583.008, T1204.002, T1036, T1105, T1219 |
-| [Malware Investigation: Coin Miner](case-studies/pua-updater-miner-triage-runbook.md) | Incident Response | T1496, T1053.005, T1105 |
+| [Malware Investigation: Coin Miner](case-studies/swupdater-coinminer-investigation.md) | Incident Response | T1496, T1053.005, T1105 |
 
 ## Runbooks
 

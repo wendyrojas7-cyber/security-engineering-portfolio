@@ -25,6 +25,7 @@ Related to some of the investigations under case studies.
 |---|---|---|
 | [Remote-Access Installer Triage](runbooks/remote-access-installer-guidebook.md) | Incident Response | T1583.008, T1204.002, T1036, T1105, T1219 |
 | [PUA Updater Miner Triage](runbooks/pua-updater-miner-triage-runbook.md) | Incident Response | T1496, T1053.005, T1105 |
+| [Heuristic/ML Alert on a Packed Helper from Signed Vendor Software](runbooks/signed-vendor-app-packed-helper-fp-runbook.md) | Incident Response / False Positive Triage | T1027, T1497 |
 
 ## Frameworks
 
